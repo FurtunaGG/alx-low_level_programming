@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Prints the alphabet.
  *
@@ -13,14 +12,14 @@ int main(void)
 	l = 'a';
 	u = 'A';
 	while 
-		(l <= 'z'){
+		(l <= 'z') {
 			putchar(l);
 			l++;
 		}
 	while
-                (u <= 'Z'){
-                        putchar(u);
-                        u++;
+		(u <= 'Z') {
+			 putchar(u);
+			 u++;
                 }
 	putchar('\n');
 	return (0);
