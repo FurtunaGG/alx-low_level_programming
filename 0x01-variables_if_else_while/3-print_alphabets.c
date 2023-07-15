@@ -9,6 +9,7 @@ int main(void)
 {
 	char l;
 	char u;
+
 	l = 'a';
 	u = 'A';
 	while 
@@ -23,6 +24,5 @@ int main(void)
                 }
 	putchar('\n');
 	return (0);
-
 }
 
