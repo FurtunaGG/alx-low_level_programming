@@ -10,19 +10,18 @@ int main(void)
 	int i;
 	char l;
 	
+	i = 0; 
 	l = 'a';
-	for (i = 0; i < 10; i++)
-	{
-		putchar(i + '0');
-	}
 	while
-	{
-		(l <= 'f')
-			putchar(l)
+		(i < 10) {
+			putchar(i + '0');
+			i++;
+		}
+	while
+		(l <= 'f') {
+			putchar(l);
 			l++;
 		}
 	putchar('\n');
 	return (0);
 }
-
-
