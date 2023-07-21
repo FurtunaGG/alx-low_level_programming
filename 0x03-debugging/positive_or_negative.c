@@ -1,9 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* function - Determines if a number is positive, negative or zero.
+* Determines if a number is positive, negative, or zero.
 *
-* Return: Always 0 (Success)
+* This function takes an integer 'i' as input and prints whether it is +, -, 0
+*
+* @param i The integer to be checked. It can be positive, negative, or zero.
 */
 void positive_or_negative(int i)
 {
