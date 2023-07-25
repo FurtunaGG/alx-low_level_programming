@@ -18,7 +18,7 @@ void puts2(char *str)
 		i++;
 	}
 	j = i - 1;
-	for n = 0; n <= j; n++)
+	for (n = 0; n <= j; n++)
 	{
 		if (n % 2 == 0)
 	{
